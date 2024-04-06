@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+
+    </title>
+    <style>
+      p {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+      }
+
+      .profile-container {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+      }
+
+      .profile-pic {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 7px;
+      }
+
+      .profile-name {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 3px;
+      }
+
+      .mutuals {
+        color: rgb(90, 90, 90);
+        font-size: 15px;
+      }
+
+      .mutual-pic {
+        width: 100%;
+        height: 26px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+      }
+
+      .btn-add-friend {
+        color: white;
+        border: none;
+        background-color: rgb(56, 119, 255);
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+
+      .btn-add-friend:hover {
+        opacity: 0.8;
+      }
+
+      .btn-add-friend:active {
+        opacity: 0.6;
+      }
+
+      .profile-name, 
+      .mutuals-container, 
+      .btn-add-friend {
+        margin-left: 10px;
+      }
+
+      .mutuals-container {
+        margin-bottom: 8px;
+        display: grid;
+        grid-template-columns: 26px 1fr;
+        column-gap: 5px;
+        align-items: center;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="grid-container">
+      <div class="profile-container">
+
+        <div>
+          <img class="profile-pic" src="images/cat.jpg">
+        </div>
+        <div>
+          <p class="profile-name">
+            Oliver
+          </p>
+        </div>
+        <div class="mutuals-container">
+          <img class="mutual-pic" src="images/dog2.jpg">
+          <p class="mutuals">
+            2 mutual friends
+          </p>
+        </div>
+        <div>
+          <button class="btn-add-friend">
+            Add Friend
+          </button>
+        </div>
+  
+      </div>
+  
+      <div class="profile-container">
+  
+        <div>
+          <img class="profile-pic" src="images/cat2.jpg">
+        </div>
+        <div>
+          <p class="profile-name">
+            Oliver
+          </p>
+        </div>
+        <div class="mutuals-container">
+          <img class="mutual-pic" src="images/dog2.jpg">
+          <p class="mutuals">
+            3 mutual friends
+          </p>
+        </div>
+        <div>
+          <button class="btn-add-friend">
+            Add Friend
+          </button>
+        </div>
+        
+      </div>
+  
+      <div class="profile-container">
+  
+        <div>
+          <img class="profile-pic" src="images/dog.jpg">
+        </div>
+        <div>
+          <p class="profile-name">
+            Oliver
+          </p>
+        </div>
+        <div class="mutuals-container">
+          <img class="mutual-pic" src="images/dog2.jpg">
+          <p class="mutuals">
+            4 mutual friends
+          </p>
+        </div>
+        <div>
+          <button class="btn-add-friend">
+            Add Friend
+          </button>
+        </div>
+        
+      </div>
+    </div>
+
+    
+  </body>
+</html>
