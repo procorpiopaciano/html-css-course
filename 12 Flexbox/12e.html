@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+
+    </title>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        width: 300px;
+      }
+
+      .flex-notif {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 7px;
+      }
+
+      .notif-type,
+      .notif-count {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
+
+      .notif-count {
+        background-color: rgb(61, 109, 240);
+        color: white;
+        padding: 7px 15px;
+        border-radius: 30px;
+        font-weight: bold;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+
+      <div class="flex-notif">
+        <div class="notif-type">
+          Home
+        </div>
+        <div class="notif-count">
+          14
+        </div>
+      </div>
+
+      <div class="flex-notif">
+        <div class="notif-type">
+          Notifications
+        </div>
+        <div class="notif-count">
+          3
+        </div>
+      </div>
+
+      <div class="flex-notif">
+        <div class="notif-type">
+          Messages
+        </div>
+        <div class="notif-count">
+          5
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
