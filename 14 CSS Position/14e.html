@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+
+    </title>
+    <style>
+      body {
+        height: 3000px;
+        padding-top: 60px;
+      }
+
+      .sticky-prompt {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 50px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      .profile-dets {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .profile-picture {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+      }
+
+      .profile-name {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        margin-left: 10px;
+      }
+
+      .btn-add,
+      .btn-message {
+        font-size: 16px;
+        padding: 8px 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        transition: opacity 0.15s;
+      }
+      
+      .btn-add {
+        color: white;
+        background-color: rgb(54, 117, 253);
+      }
+
+      .btn-add:hover,
+      .btn-message:hover {
+        opacity: 0.8;
+      }
+
+      .btn-add:active,
+      .btn-message:active {
+        opacity: 0.6;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="sticky-prompt">
+
+      <div class="profile-dets">
+        <img class="profile-picture" src="images/cat.jpg">
+        <span class="profile-name">
+          Oliver Cat
+        </span>
+      </div>
+
+      <div>
+        <button class="btn-add">
+          Add Friend
+        </button>
+        <button class="btn-message">
+          Message
+        </button>
+      </div>
+
+    </div>
+  </body>
+</html>
