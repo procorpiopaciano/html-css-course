@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inbox-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  width: 400px;
+  padding: 10px 10px 30px 10px;
+
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.inbox-header {
+  font-size: 14px;
+  color: grey;
+}
+
+.inbox-message-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.inbox-details {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.message-time {
+  font-size: 14px;
+  color: grey;
+}
+
+.message-subject {
+  font-weight: bold;
+}
+
+.message-body {
+  font-size: 15px;
+  color: grey;
+}
