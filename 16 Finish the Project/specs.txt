@@ -1,0 +1,17 @@
+nav bar
+-left
+-middle
+-right
+
+left side bar
+-shortcuts
+-your shortcuts
+
+right side bar
+-header
+-friends
+
+content
+-story(relative absolute small profile pic)
+-what's on your mind,
+-posts
