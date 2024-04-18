@@ -8,7 +8,7 @@ left side bar
 -your shortcuts
 
 right side bar
--header
+-birthdays
 -friends
 
 content

@@ -1,0 +1,82 @@
+.left-sidebar {
+  display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  overflow-y: scroll;
+}
+
+.shortcuts-separator {
+  border: 1px solid grey;
+}
+
+.shortcuts-container,
+.your-shortcuts-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.shortcuts-container,
+.your-shortcuts-container .shortcut {
+  cursor: pointer;
+}
+
+.shortcut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.shortcut:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+.shortcut-icon {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.your-shortcuts-container span {
+  color: rgb(184, 184, 184);
+  font-weight: bold;
+}
+
+.your-shortcuts-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.your-shortcuts-header .btn-edit {
+  opacity: 1;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(78, 155, 255);
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+.shortcut span {
+  color: white;
+  font-size: 18px;
+}
